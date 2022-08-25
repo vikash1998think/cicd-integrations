@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker-compose build
     - name: Run Python Tests
-      run: python3 --version
+      run: pytest
