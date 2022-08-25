@@ -20,5 +20,3 @@ jobs:
       run: pip install -r apps/requirements.txt
     - name: Run Python Tests
       run: pytest
-    - name: Final message
-      run: print("OK")
